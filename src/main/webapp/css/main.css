@@ -1,0 +1,61 @@
+@charset "UTF-8";
+body{
+	top: 0px; left: 0px;
+}
+#header {
+	position: fixed;
+	width:100%; height:3rem;
+	left:0;right:0;top:0;
+	padding-right:20px; text-align:right;
+	background-color: #C2D8DC; color:#ffffff;
+	font-weight:800;
+}
+#footer	{
+	position:fixed;
+	width:100%;height:3rem;
+	background-color:#C2D8DC;
+	left:0;right:0;bottom:0;
+}
+.top-span{
+	line-height:3rem; padding-right: 20px;
+}
+.small-btn {
+	width:10%; height:30px; margin-left:20px;
+	background-color:#5D8C95; color:#ffffff;
+	border: 1px solid #ffffff;
+	font-weight: 800;
+}
+.small-btn-over {
+	width:10%; height:30px; margin-left:20px;
+	background-color:#ffffff; color:#C2D8DC;
+	border: 1px solid #ffffff;
+	font-weight: 800;
+}
+.modalBox {
+	position:absolute; top:0; left:0;
+	width:100%; height:100%;
+	display:none;
+	background-color:rgba(0,0,0,0.7);
+}
+.modalBody{
+	position:absolute;
+	width:40%; height:40%;
+	top:50%; left:50%; transform: translate(-50%, -50%);
+	border-radius: 10px;
+	background-color: #ffffff
+}
+.modalTitle {
+	position:relative;
+	width: 100%; 
+	padding: 5% 0;
+	text-align: center;
+	color: #FFFFFF;	background-color: #C2D8DC;
+	font-size: 1.5rem; font-weight: 800;
+}
+.closeBox {
+	position: fixed; top:0; right:0;
+	float: right;
+	width: 50px; padding: 5% 0;
+	color: #ffffff;	background-color: #C2D8DC;
+	cursor: pointer;
+}

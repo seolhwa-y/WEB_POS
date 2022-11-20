@@ -1,0 +1,80 @@
+.goodsBox{
+    float: left;
+    width: 62%; height: 80%;
+    background-color: #E9F1F3;
+    padding: 0.5%;
+}
+.goods{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #E9F1F3;
+    padding: 0.5%;
+}
+.goodsHeader{
+    font-weight: bold;
+}
+#optionBtn{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    padding: 0.5%;
+    width: 35%; height: 80%;
+    background-color: #E9F1F3;
+}
+.search{
+    position: absolute;
+    float: left;
+    width: 96%; height: 5rem;
+    left:0;right:0;bottom:0;
+    margin: 5px auto;
+    background-color: #FFF9F4;
+    align-items: center;
+}
+#sBtnBox{
+    width: 80%; height: 4rem;
+}
+.btns{
+	background-color: #5D8C95; color:#ffffff;
+	border: 1px solid #ffffff;
+	font-weight: 800; font-size: 20px;
+}
+.btns-over{
+	background-color: #C2D8DC; color:#ffffff;
+	border: 1px solid #ffffff;
+	font-weight: 800; font-size: 20px;
+}
+.sBtn{
+    width: 30%; height: 4rem;
+}
+.mBtn{
+    width: 60%; height: 4rem;
+}
+
+.title.subtitle{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.title.subtitle.contents{
+    background-color: #ffffff; color: #000000;
+	text-align: center;    
+}
+#searchBox{
+	width: 80%; height: 3rem; margin: 0 auto;
+	position: relative;
+	top: 50%;
+  	transform: translate(0, -50%);
+  	text-align: center;
+  	font-size: 20px;
+}
+#payBtn{
+	position: relative;
+	top: 50%;
+  	transform: translate(0, -50%)
+}
+.tdOver {
+	color: red;
+}

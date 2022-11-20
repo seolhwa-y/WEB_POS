@@ -1,0 +1,41 @@
+#accessinfo,#goodsProfit{
+	width : 100%;
+    overflow: auto;
+	}
+#container {
+	position: relative; 
+	width: 100%; height: 52.5rem;
+	top:3rem;left:0;right:0;
+	text-align: center;
+}
+#ep{
+	position: relative;
+	text-align : center;
+	float: left;
+	width : 30%;
+	height : 500px; 
+	border : 5px solid #C2D8DC;
+	margin : 10px 15px;
+	margin-left : 15%;
+	overflow: auto;
+}
+#ep table, #st table{
+    width: 100%;
+}
+#st{
+	position: relative;
+	text-align : center;
+	float: left;
+	width : 30%;
+	height : 500px; 
+	border : 5px solid #C2D8DC;
+	margin : 10px 15px;
+	margin-left : 15%;
+    overflow: auto;
+}
+.title{
+	width: 100%; height: 2rem;
+	padding: 1rem 0;
+	color: #FFFFFF;	background-color: #C2D8DC;
+	font-size: 1.5rem; font-weight: 800;
+	}
